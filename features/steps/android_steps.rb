@@ -32,6 +32,7 @@ When("I clear any error dialogue") do
 end
 
 When('I run {string}') do |scenario_name|
+  
   execute_command :run_scenario, scenario_name
 end
 
